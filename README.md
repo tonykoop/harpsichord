@@ -2,7 +2,7 @@
 
 # Harpsichord
 
-Status: L2 planning packet; not fabrication-ready
+Status: L3-candidate V5 packet (deepened: protocols, tolerances, assembly, FMEA)...
 
 Private V5 planning packet for a harpsichord: keys raise jacks, jack plectra
 pluck strings, register slides select choirs such as 8' and 4', and a buff or

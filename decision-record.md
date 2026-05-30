@@ -6,11 +6,14 @@
 
 - Treat the harpsichord as a keyboard-controlled plucked-string instrument
   centered on jacks, plectra, register slides, and damping.
+- Promote this packet from V5 L1 to L2 planning by adding subsystem shop
+  interfaces, a non-dimensional cut/workpiece list, and explicit prototype
+  evidence gates.
 - Include 8' and 4' registers as named concept systems without defining scale,
   stringing, or geometry.
 - Include a buff/lute stop as a color mechanism whose contact behavior is
   `pending_measurement`.
-- Keep this first packet at V5 L1 because no measured reference, stringing
+- Keep the packet below build-ready because no measured reference, stringing
   design, jack mockup, or register prototype exists.
 - Record every artifact as `concept_only` or `pending_measurement`.
 - Do not create CAD, DXF, string layouts, tuning tables, jack dimensions,
@@ -31,9 +34,22 @@
 
 ## Promotion Gates
 
-- L2 requires selected references or measured design targets, a reviewed
-  jack/register concept, and a stringing/soundboard risk plan.
+- L2 is satisfied by this planning handoff: subsystem boundaries, BOM classes,
+  cut/workpiece categories, and authority constraints are explicit.
 - L3 requires reviewed fabrication authority and repeatable action/stringing
   validation.
 - L4 requires empirical build data, regulation notes, recordings or
   measurements, and documented revisions.
+
+## L2 Evidence Gates
+
+- Select a historical reference, measured exemplar, or explicit design target
+  before publishing scale, compass, stringing, or bridge claims.
+- Build a one-jack action mockup and log lift, pluck, reset, damping, and
+  service access separately.
+- Test a register-slide coupon before claiming 8' or 4' alignment geometry.
+- Test a buff/lute contact coupon before locating the stop in a full layout.
+- Record soundboard, wrestplank, case, and string-load risks before CAD.
+- Update the authority register before future CAD, DXF, SVG, stringing tables,
+  Wolfram models, or audio artifacts are treated as anything beyond concept
+  review.

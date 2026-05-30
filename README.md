@@ -2,9 +2,9 @@
 
 # Harpsichord
 
-Status: L1 concept packet
+Status: L2 planning packet; not fabrication-ready
 
-Private V5 concept packet for a harpsichord: keys raise jacks, jack plectra
+Private V5 planning packet for a harpsichord: keys raise jacks, jack plectra
 pluck strings, register slides select choirs such as 8' and 4', and a buff or
 lute stop damps the speaking string for color.
 
@@ -30,7 +30,9 @@ mechanical and acoustic values are `pending_measurement`.
 ## Packet Map
 
 - `design.md` - mechanism concept, parametric intent, and measurement gates.
-- `bom.csv` - estimated parts classes only.
+- `bom.csv` - subsystem-level parts and test-support classes only.
+- `cut-list.csv` - non-dimensional keyboard, action, register, stringing, and
+  case workpiece categories; all sizes and counts remain pending measurement.
 - `visual-output-register.csv` - V5 authority register; every row is
   `concept_only` or `pending_measurement`.
 - `cad/mcp-session-log.md` - QMD and provenance stub; no MCP/CAD session run.
@@ -38,7 +40,10 @@ mechanical and acoustic values are `pending_measurement`.
 
 ## Readiness
 
-L1 means the repo captures intent, mechanism boundaries, and missing evidence.
-Promotion to L2 requires measured or selected stringing assumptions, a reviewed
-jack/register concept, a case and soundboard strategy, and an authority register
-for any future visual, CAD, or acoustic artifacts.
+L2 means the repo now names the shop subsystems, workpiece categories,
+measurement logs, and authority boundaries needed for a careful prototype
+review. It still does not release dimensions, string scale, jack spacing,
+plectrum cuts, register geometry, bridge layout, case layout, or tuning targets.
+Promotion beyond L2 requires measured or selected stringing assumptions, a
+reviewed jack/register mockup, a case and soundboard strategy, and an authority
+register for any future visual, CAD, or acoustic artifacts.

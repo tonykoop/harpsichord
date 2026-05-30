@@ -2,25 +2,25 @@
 ---
 instrument: Harpsichord
 family: string_keyboard_plucked
-packet_mode: v5_l1_concept
+packet_mode: v5_l2_planning
 authority: concept_only
-readiness: L1 concept packet
+readiness: L2 planning packet
 ---
 
 # Harpsichord Design Study
 
 ## Design Thesis
 
-This V5 L1 packet frames a harpsichord as a keyboard-controlled plucked-string
+This V5 L2 packet frames a harpsichord as a keyboard-controlled plucked-string
 system. The central design problem is not a struck action: each key must raise a
 jack so a plectrum plucks the string, then returns quietly while the tongue lets
 the plectrum pass back beneath the string. Registers, including 8' and 4'
 choirs, are treated as selectable systems whose details remain
 `pending_measurement`.
 
-The first packet stays non-dimensional. It names subsystems, dependencies, and
-evidence gates without inventing scale lengths, string gauges, soundboard
-geometry, jack dimensions, or tuning.
+The packet stays non-dimensional. It names subsystems, dependencies, shop
+interfaces, workpiece categories, and evidence gates without inventing scale
+lengths, string gauges, soundboard geometry, jack dimensions, or tuning.
 
 ## Mechanism
 
@@ -36,6 +36,28 @@ packet does not define choir count, string scale, compass, or stop linkage.
 The buff/lute stop is a damping color mechanism. It needs a reversible way to
 touch or mute strings consistently without becoming an accidental tuning or
 structural authority.
+
+## L2 Subsystem Plan
+
+| subsystem | L2 responsibility | authority | next evidence |
+| --- | --- | --- | --- |
+| keyboard | define key/action interface without releasing lever geometry | pending_measurement | selected reference or bench action target |
+| jack and tongue | prove pluck and quiet reset as a regulated mechanism | pending_measurement | one-jack mockup log |
+| plectrum | separate material, cut, and voicing decisions from geometry claims | pending_measurement | plectrum coupon observations |
+| registers | keep 8' and 4' concepts selectable without hardcoding spacing | pending_measurement | register-slide mockup notes |
+| buff/lute stop | test reversible damping before claiming a stop layout | pending_measurement | contact and release log |
+| stringing | block scale, gauge, and tension claims until reference selection | pending_measurement | stringing authority decision |
+| soundboard/case | name structure and access concerns before CAD | pending_measurement | risk review and measured target |
+
+## L2 Workpiece Plan
+
+The first physical artifact should be a small action and register bench mockup,
+not a full instrument case. `cut-list.csv` names workpiece categories only:
+keyboard/action rail coupon, jack coupon, tongue/plectrum coupon, register
+slide coupon, buff-stop coupon, stringing authority worksheet, soundboard/case
+study coupon, and test-log template. None of those entries is a released size,
+string length, jack spacing, register slot, bridge curve, or tuning
+prescription.
 
 ## Parametric Intent
 
@@ -71,7 +93,7 @@ curves, buff-stop placement, case dimensions, or toolpaths.
 
 ## Measurement Gates
 
-Promotion beyond L1 requires:
+Promotion beyond L2 requires:
 
 - A selected historical reference, measured exemplar, or explicit design target
   for keyboard scope and stringing.
@@ -81,6 +103,9 @@ Promotion beyond L1 requires:
 - A soundboard and case concept reviewed for structural and acoustic risk.
 - A safety and maintenance review for string tension, sharp wire ends, and
   access to regulated action parts.
+- A traceable authority register entry for any future CAD, DXF, SVG drawing,
+  stringing table, Wolfram model, or audio artifact before it can be used
+  outside concept review.
 
 ## Risks
 

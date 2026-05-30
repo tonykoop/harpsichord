@@ -1,0 +1,11 @@
+item_id,system,item,authority,status,notes
+HC-KEYS,keyboard,key levers and balance/front guides,pending_measurement,estimate_class_only,"Keyboard scope, lever geometry, and materials are not specified."
+HC-JACKS,action,jacks with tongues and dampers,pending_measurement,estimate_class_only,"Jack material, guide spacing, travel, tongue reset, and damper behavior require tests."
+HC-PLECTRA,action,plectra,pending_measurement,estimate_class_only,"Material, cut, voicing, and replacement method are not specified."
+HC-REG-8,registers,8' register concept,pending_measurement,estimate_class_only,"Choir plan, stringing, and slide geometry are pending measurement."
+HC-REG-4,registers,4' register concept,pending_measurement,estimate_class_only,"Choir plan, stringing, and slide geometry are pending measurement."
+HC-BUFF,stops,buff or lute stop concept,pending_measurement,estimate_class_only,"Contact material, actuation, and damping behavior require prototype review."
+HC-STRINGS,stringing,strings and hitch/tuning hardware,pending_measurement,estimate_class_only,"Wire material, gauges, scale, and tension are not specified."
+HC-SOUNDBOARD,acoustic_body,soundboard and bridge system,pending_measurement,estimate_class_only,"Soundboard, bridge, and rib strategy are not specified."
+HC-CASE,structure,case and wrestplank structure,pending_measurement,estimate_class_only,"Case structure and tuning-pin support require engineering review."
+HC-SERVICE,maintenance,voicing and regulation access provisions,pending_measurement,estimate_class_only,"Service clearances and adjustment methods are not specified."

@@ -5,3 +5,5 @@ HC-BOM-001,bom.csv,bom_estimate,planning_inventory,pending_measurement,design.md
 HC-CUT-001,cut-list.csv,cut_list_estimate,planning_inventory,pending_measurement,design.md,none,self_checked,"Non-dimensional workpiece categories only; no released sizes string scales coordinates or cut authority."
 HC-DECISION-001,decision-record.md,decision_record,concept_decisions,concept_only,design.md,none,self_checked,"Design-study decisions and open questions."
 HC-MCP-001,cad/mcp-session-log.md,provenance_log,qmd_and_tooling,pending_measurement,README.md,none,self_checked,"QMD and external-tool provenance stub; no MCP/CAD session created geometry."
+HC-WL-001,harpsichord-starter.wl,wolfram_source,acoustic_model,reference_only,wolfram/harpsichord-wolfram-model.wl,none,self_checked,"Thin Wolfram loader; source-only and not executed; pending measurement, not fabrication authority."
+HC-WL-002,wolfram/harpsichord-wolfram-model.wl,wolfram_source,acoustic_model,reference_only,design.md,none,self_checked,"Parametric plucked-string and plectrum-energy model with estimate placeholders only; no measured dimensions tensions or frequencies."

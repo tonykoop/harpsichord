@@ -16,6 +16,7 @@ V5 provenance stub for the harpsichord L2 planning packet.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | none-2026-05-30 | none | Round 7 handoff and general mechanical concept stated in prompt. | `README.md`, `design.md`, `bom.csv`, `decision-record.md`, `visual-output-register.csv`, `cad/mcp-session-log.md` | l1_concept_packet | concept_only | self_checked | No MCP, CAD, image, audio, Wolfram, acoustic model, or CAM tool generated artifacts. |
 | codex-r7-l2-uplift-2026-05-30 | Codex local edit | Existing repo packet and Round 7 L2 uplift request. | `README.md`, `design.md`, `bom.csv`, `cut-list.csv`, `decision-record.md`, `visual-output-register.csv`, `cad/mcp-session-log.md` | l2_planning_uplift | pending_measurement | self_checked | Added non-dimensional subsystem interfaces, workpiece categories, and measurement gates only. |
+| codex-r8-wolfram-source-2026-05-30 | Codex local edit | `design.md`; Round 8 Wolfram author contract. | `harpsichord-starter.wl`, `wolfram/harpsichord-wolfram-model.wl`, `visual-output-register.csv`, `cad/mcp-session-log.md` | wolfram_source_authoring | reference_only | self_checked | Source authored by hand. No Wolfram Desktop, Wolfram Cloud, MCP, CAD, rendering, or acoustic-computation session was run; all numeric inputs are estimate placeholders pending measurement, not fabrication authority. |
 
 ## Authority Notes
 

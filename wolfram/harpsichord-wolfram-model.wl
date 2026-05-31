@@ -14,7 +14,7 @@ modelMetadata = <|
 stringFrequency[length_, tension_, linearDensity_] :=
   (1/(2 length)) Sqrt[tension/linearDensity];
 
-choirSpeakingLength(baseLength_, registerScale_] :=
+choirSpeakingLength[baseLength_, registerScale_] :=
   baseLength registerScale;
 
 plectrumEnergy[plectrumStiffness_, plectrumDeflection_] :=

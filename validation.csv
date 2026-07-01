@@ -1,0 +1,11 @@
+<!-- measurement gates; acceptance bases are qualitative until a rubric + measured targets are selected; pending_measurement -->
+gate_id,subsystem,measurement,acceptance_basis,authority,status,notes
+VAL-001,keyboard,key dip and tail-lift delivered to jack,repeatable lift covers pluck + reset (target TBD),pending_measurement,gate_open,"No dip/lift value released; see docs/parametric-design-table.md HC-PAR-001/002."
+VAL-002,action,jack lift vs plectrum engagement + tongue reset margin,J_lift >= P_engagement + T_reset,pending_measurement,gate_open,"Symbolic gate; measured on one-jack mockup."
+VAL-003,action,tongue reset after pluck,reliable pass-under, no re-pluck or hang,pending_measurement,gate_open,"Tongue-reset bench log required."
+VAL-004,action,damper stops speaking string on key release,clean release without pulling pitch,pending_measurement,gate_open,"Damper mockup with stringed coupon."
+VAL-005,registers,register-slide travel and jack-row alignment,reliable on/off with detent stability,pending_measurement,gate_open,"R_alignment >= f(J_clearance, R_slide) — HC-PAR-004."
+VAL-006,stops,buff/lute-stop contact and reversibility,reversible, non-damaging contact,pending_measurement,gate_open,"Buff coupon and wear review."
+VAL-007,stringing,scale, gauge, and tension plan,reviewed reference or measured target,pending_measurement,gate_open,"No stringing authority in packet."
+VAL-008,structure,case/soundboard load path under string tension,no distortion; safe tuning behavior,pending_measurement,gate_open,"Structural/acoustic review before bridge/case layout."
+VAL-009,maintenance,service access to jacks/plectra/dampers/registers,regulation without disassembly beyond planned maintenance,pending_measurement,gate_open,"V_service gate — HC-PAR-009."

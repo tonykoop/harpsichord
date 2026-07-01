@@ -2,7 +2,7 @@
 
 # Harpsichord
 
-Status: L3-candidate V5 packet (deepened: protocols, tolerances, assembly, FMEA)...
+**Status:** L2 V5 build-packet candidate
 
 Private V5 planning packet for a harpsichord: keys raise jacks, jack plectra
 pluck strings, register slides select choirs such as 8' and 4', and a buff or
@@ -37,8 +37,20 @@ mechanical and acoustic values are `pending_measurement`.
   `concept_only` or `pending_measurement`.
 - `cad/mcp-session-log.md` - QMD and provenance stub; no MCP/CAD session run.
 - `decision-record.md` - decisions, open questions, and promotion gates.
+- `sourcing.csv`, `validation.csv`, `risks.md`, `drawing-brief.md` - baseline
+  shop-packet scaffolds (spec-first, non-dimensional, `pending_measurement`).
+- `cad/harpsichord.scad` - parametric structural-envelope scaffold (symbolic
+  relationships as formulas, render-only placeholder values); authority
+  `pending_measurement`, not fabrication authority.
+- `evolution/` - evolution-pipeline Stage 0 intake: master manifest,
+  design-intent, and revision register (Gate A not yet run).
 
 ## Readiness
+
+Deepened toward L3 (protocols, tolerances, assembly, FMEA in `docs/`) but not
+promoted: L3 requires fabrication-authority CAD/DXF and validator evidence, and
+this packet is deliberately non-dimensional, so it stays **L2 V5 build-packet
+candidate**.
 
 L2 means the repo now names the shop subsystems, workpiece categories,
 measurement logs, and authority boundaries needed for a careful prototype

@@ -1,0 +1,10 @@
+<!-- spec-first sourcing; no released dimensions, no verified prices; pending_measurement -->
+item_id,system,spec_basis,candidate_source_class,authority,status,notes
+SRC-KEYS,keyboard,key-lever and guide stock (species/lever ratio TBD),tonewood/hardwood supplier,pending_measurement,spec_pending,"Key material and scope not selected; no dimensions released."
+SRC-JACKS,action,jack/tongue/damper stock and pivots,action-parts specialist,pending_measurement,spec_pending,"Jack material, guide fit, travel pending measurement."
+SRC-PLECTRA,action,plectra material (delrin/quill class TBD),luthier supply,pending_measurement,spec_pending,"Material, cut, and voicing require prototype evidence."
+SRC-REG,registers,register-slide stock and detent hardware,hardware/shop stock,pending_measurement,spec_pending,"8'/4' slide spacing and coupling geometry not released."
+SRC-BUFF,stops,buff/lute-stop contact material,felt/leather supplier,pending_measurement,spec_pending,"Contact material and actuation pending review."
+SRC-STRINGS,stringing,music wire and tuning/hitch pins,harpsichord wire supplier,pending_measurement,spec_pending,"Wire material, gauge, scale, and tension not specified."
+SRC-SOUNDBOARD,acoustic_body,soundboard and bridge stock,tonewood supplier,pending_measurement,spec_pending,"Soundboard species/thickness and bridge stock pending."
+SRC-CASE,structure,case and wrestplank stock,hardwood/ply supplier,pending_measurement,spec_pending,"Case structure and wrestplank stack require engineering review."
